@@ -1,38 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.3s ease;
+}
+
 .App {
-  text-align: center;
+    background-color: rgb(179, 179, 179);
+    min-height: 100vh;
+    width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+    list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* ===========NAVBAR============== */
+.navbar {
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.navLogo {
+    width: 10rem;
+    height: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navList {
+    margin: 0.2rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+}
+
+.navList a {
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.navList a:hover {
+    color: red;
+}
+
+.navlist a:focus {
+    color: white;
+    background-color: red;
 }
