@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Roboto:wght@100;300;400;500;700&display=swap");
-
 :root {
+    --primary-color: red;
+    --secondary-color: #0055ff;
+    --dark-color: #001;
+    --light-color: #f4f4f4;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
+    --hover-color: #2a2f47;
+    --background-color: #dde4ff;
+    --grey-color: rgb(100, 100, 100);
+    --green-color: #007c1d;
 }
 
 * {
@@ -12,7 +21,7 @@
 }
 
 .App {
-    background-color: rgb(179, 179, 179);
+    background-color: #f4f4f4;
     min-height: 100vh;
     width: 100vw;
 }
@@ -25,6 +34,149 @@ li {
     list-style: none;
 }
 
+button {
+    font-size: 1.2rem;
+    font-family: Roboto, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+    color: var(--light-color);
+}
+
+/* COLOR */
+.primary-color {
+    color: var(--primary-color);
+}
+
+.light-grey {
+    color: var(--grey-color);
+}
+
+.green {
+    color: var(--green-color);
+}
+
+/* Padding */
+.p {
+    padding: 0.5rem;
+}
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
+.py {
+    padding: 0.5rem 0;
+}
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 2rem 0;
+}
+.py-3 {
+    padding: 3rem 0;
+}
+
+/* Margin */
+.m {
+    margin: 0.5rem;
+}
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 2rem;
+}
+.m-3 {
+    margin: 3rem;
+}
+.mx {
+    margin: 0 0.5rem;
+}
+.my {
+    margin: 0.5rem 0;
+}
+.my-1 {
+    margin: 1rem 0;
+}
+.my-2 {
+    margin: 2rem 0;
+}
+.my-3 {
+    margin: 3rem 0;
+}
+
+.container {
+    width: 100vw;
+    height: 92vh;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+/* FLEX STYLES */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Text Styles*/
+.xx-large {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.x-large {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.large {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+}
+
+.medium {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 0.7rem;
+}
+
+.small {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.x-small {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+hr.hrdashed {
+    margin: 0.7rem 0rem;
+    border-top: 1px dashed var(--grey-color);
+}
+
 /* ===========NAVBAR============== */
 .navbar {
     background-color: #fff;
@@ -35,10 +187,10 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navLogo {
-    width: 10rem;
     height: 90%;
 }
 
@@ -53,12 +205,12 @@ li {
 }
 
 .navList {
-    margin: 0.2rem 0.5rem;
+    margin: 0 1rem;
     padding: 0.5rem 0.8rem;
 }
 
 .navList a {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #000;
 }
 
@@ -69,4 +221,45 @@ li {
 .navlist a:focus {
     color: white;
     background-color: red;
+}
+
+/* ============LANDING=========== */
+
+.landing {
+    width: 100vw;
+}
+
+.bannerImage {
+    width: 100vw;
+    height: 50em;
+}
+
+.bannerImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overviewText ul li {
+    list-style: circle;
+    padding: 0.5rem;
+}
+
+/* ===========FOOTER=============== */
+.footer {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        5deg,
+        rgb(65, 65, 65) 0%,
+        rgba(0, 0, 0, 1) 51%,
+        rgb(65, 65, 65) 100%
+    );
+}
+
+.footer .companyText {
+    color: white;
+    letter-spacing: 2px;
 }
