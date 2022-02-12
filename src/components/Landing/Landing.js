@@ -1,11 +1,11 @@
 import React from "react";
-import banner from "../../assets/images/banner.jpg";
+import Carousel from "./Carousel";
 
 const Landing = () => {
     return (
         <div className="landing">
-            <div className="bannerImage">
-                <img src={banner} alt="" />
+            <div className="carousel_area">
+                <Carousel />
             </div>
             <div className="overview p-3">
                 <div className="x-large primary-color">OVERVIEW </div>
