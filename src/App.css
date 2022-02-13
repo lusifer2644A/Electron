@@ -194,7 +194,7 @@ hr.hrdashed {
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    z-index: 10;
+    z-index: 10000;
 }
 
 .navLogo {
