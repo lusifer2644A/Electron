@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
+    const [active, setActive] = useState(true);
+    const ulRef = useRef();
+    const hamburgerRef = useRef();
+
     return (
         <div className="navbar">
             <div className="navLogo">
@@ -10,7 +14,32 @@ const Navbar = () => {
                     <img src={logo} alt="Electron" />
                 </Link>
             </div>
-            <ul>
+            <button
+                class="hamburger"
+                onClick={() => {
+                    ulRef.current.className = `${active ? "active" : ""}`;
+                    hamburgerRef.current.className = `${
+                        active ? "hamburger active" : "hamburger"
+                    }`;
+                    setActive((prevState) => {
+                        return !prevState;
+                    });
+                }}
+                ref={hamburgerRef}
+            >
+                {active ? (
+                    <ion-icon
+                        name="menu-outline"
+                        className="hamIcon"
+                    ></ion-icon>
+                ) : (
+                    <ion-icon
+                        name="close-outline"
+                        className="hamIcon"
+                    ></ion-icon>
+                )}
+            </button>
+            <ul ref={ulRef} className="">
                 <li className="navList">
                     <Link to="/">Home</Link>
                 </li>

@@ -1,23 +1,22 @@
-import React, { useState } from "react";
-import b1 from "../../assets/images/banner3l.jpg";
-import b2 from "../../assets/images/banner.jpg";
-import b3 from "../../assets/images/banner2.jpg";
+import React, { useEffect, useRef, useState } from "react";
 
-const sliderImages = [
-    {
-        url: b1,
-    },
-    {
-        url: b2,
-    },
-    {
-        url: b3,
-    },
-];
-
-const Carousel = () => {
+const Carousel = ({ sliderImages, autoPlayInterval }) => {
     const [current, setCurrent] = useState(0);
     const length = sliderImages.length;
+
+    const autoPlayRef = useRef();
+
+    useEffect(() => {
+        autoPlayRef.current = nextSlide;
+    });
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            autoPlayRef.current();
+        }, autoPlayInterval * 1000);
+    }, []);
+
+    if (length === 0 || length === null) return null;
 
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1);
@@ -26,8 +25,6 @@ const Carousel = () => {
     const prevSlide = () => {
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
-
-    if (length === 0 || length === null) return null;
 
     return (
         <div className="carousel">

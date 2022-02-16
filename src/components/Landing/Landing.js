@@ -1,11 +1,27 @@
 import React from "react";
 import Carousel from "./Carousel";
 
+import b1 from "../../assets/images/banner3l.jpg";
+import b2 from "../../assets/images/banner.jpg";
+import b3 from "../../assets/images/banner2.jpg";
+
+const sliderImages = [
+    {
+        url: b3,
+    },
+    {
+        url: b2,
+    },
+    {
+        url: b1,
+    },
+];
+
 const Landing = () => {
     return (
         <div className="landing">
             <div className="carousel_area">
-                <Carousel />
+                <Carousel sliderImages={sliderImages} autoPlayInterval={100} />
             </div>
             <div className="overview p-3">
                 <div className="x-large primary-color">OVERVIEW </div>
