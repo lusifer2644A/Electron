@@ -7,6 +7,16 @@ const Navbar = () => {
     const ulRef = useRef();
     const hamburgerRef = useRef();
 
+    const navLinkClickHandler = () => {
+        ulRef.current.className = `${active ? "active" : ""}`;
+        hamburgerRef.current.className = `${
+            active ? "hamburger active" : "hamburger"
+        }`;
+        setActive((prevState) => {
+            return !prevState;
+        });
+    };
+
     return (
         <div className="navbar">
             <div className="navLogo">
@@ -41,22 +51,64 @@ const Navbar = () => {
             </button>
             <ul ref={ulRef} className="">
                 <li className="navList">
-                    <Link to="/">Home</Link>
+                    <Link
+                        to="/"
+                        onClick={() => {
+                            navLinkClickHandler();
+                        }}
+                    >
+                        Home
+                    </Link>
                 </li>
                 <li className="navList">
-                    <Link to="/about">About Us</Link>
+                    <Link
+                        to="/about"
+                        onClick={() => {
+                            navLinkClickHandler();
+                        }}
+                    >
+                        About Us
+                    </Link>
                 </li>
                 <li className="navList">
-                    <Link to="/products">Products</Link>
+                    <Link
+                        to="/products"
+                        onClick={() => {
+                            navLinkClickHandler();
+                        }}
+                    >
+                        Products
+                    </Link>
                 </li>
                 <li className="navList">
-                    <Link to="/complaint">Complaints</Link>
+                    <Link
+                        to="/complaint"
+                        onClick={() => {
+                            navLinkClickHandler();
+                        }}
+                    >
+                        Complaints
+                    </Link>
                 </li>
                 <li className="navList">
-                    <Link to="/deal">Dealership</Link>
+                    <Link
+                        to="/deal"
+                        onClick={() => {
+                            navLinkClickHandler();
+                        }}
+                    >
+                        Dealership
+                    </Link>
                 </li>
                 <li className="navList">
-                    <Link to="/deal">Distributors</Link>
+                    <Link
+                        to="/deal"
+                        onClick={() => {
+                            navLinkClickHandler();
+                        }}
+                    >
+                        Distributors
+                    </Link>
                 </li>
             </ul>
         </div>
