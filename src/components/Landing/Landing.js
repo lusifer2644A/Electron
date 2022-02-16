@@ -21,7 +21,7 @@ const Landing = () => {
     return (
         <div className="landing">
             <div className="carousel_area">
-                <Carousel sliderImages={sliderImages} autoPlayInterval={100} />
+                <Carousel sliderImages={sliderImages} autoPlayInterval={4} />
             </div>
             <div className="overview p-3">
                 <div className="x-large primary-color">OVERVIEW </div>
