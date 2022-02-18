@@ -1,9 +1,33 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react/cjs/react.development";
 import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
     const [active, setActive] = useState(true);
+
+    //NAVBAR SCROLL EFFECT
+    const [OFFSET, SET_OFFSET] = useState(0);
+
+    const navbarRef = useRef();
+
+    useEffect(() => {
+        const onScroll = () => SET_OFFSET(window.pageYOffset);
+        // clean up code
+        window.removeEventListener("scroll", onScroll);
+        window.addEventListener("scroll", onScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener("scroll", onScroll);
+        };
+    }, []);
+
+    //set navigation class to fixed
+    navbarRef.current.className = `${
+        OFFSET >= 150 ? "navbar sticky" : "navbar"
+    }`;
+
+    //HAMBURGER REFS AND BUTTONS
     const ulRef = useRef();
     const hamburgerRef = useRef();
 
@@ -18,7 +42,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="navbar">
+        <div className="navbar" ref={navbarRef}>
             <div className="navLogo">
                 <Link to="/">
                     <img src={logo} alt="Electron" />

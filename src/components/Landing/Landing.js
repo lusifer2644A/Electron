@@ -4,16 +4,18 @@ import Carousel from "./Carousel";
 import b1 from "../../assets/images/banner3l.jpg";
 import b2 from "../../assets/images/banner.jpg";
 import b3 from "../../assets/images/banner2.jpg";
+import b4 from "../../assets/images/banner4.jpg";
+import b5 from "../../assets/images/banner5.jpeg";
 
 const sliderImages = [
-    {
-        url: b3,
-    },
     {
         url: b2,
     },
     {
-        url: b1,
+        url: b4,
+    },
+    {
+        url: b5,
     },
 ];
 

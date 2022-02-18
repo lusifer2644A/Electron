@@ -185,16 +185,28 @@ hr.hrdashed {
 
 /* ===========NAVBAR============== */
 .navbar {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0);
     color: #000;
-    position: fixed;
     width: 100vw;
     height: 5rem;
     display: flex;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+    z-index: 1000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar.sticky {
+    background-color: #fff;
+    color: #000;
+    position: fixed;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .navLogo {
