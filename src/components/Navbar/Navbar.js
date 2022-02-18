@@ -13,6 +13,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const onScroll = () => SET_OFFSET(window.pageYOffset);
+
         // clean up code
         window.removeEventListener("scroll", onScroll);
         window.addEventListener("scroll", onScroll, { passive: true });
@@ -22,10 +23,12 @@ const Navbar = () => {
         };
     }, []);
 
-    //set navigation class to fixed
-    navbarRef.current.className = `${
-        OFFSET >= 150 ? "navbar sticky" : "navbar"
-    }`;
+    useEffect(() => {
+        //set navigation class to fixed
+        navbarRef.current.className = `${
+            OFFSET >= 150 ? "navbar sticky" : "navbar"
+        }`;
+    });
 
     //HAMBURGER REFS AND BUTTONS
     const ulRef = useRef();
@@ -49,7 +52,7 @@ const Navbar = () => {
                 </Link>
             </div>
             <button
-                class="hamburger"
+                className="hamburger"
                 onClick={() => {
                     ulRef.current.className = `${active ? "active" : ""}`;
                     hamburgerRef.current.className = `${
