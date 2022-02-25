@@ -7,10 +7,12 @@ const Product = ({ data }) => {
                 <img src={data.url} alt="" />
             </div>
             <div className="productDetails">
-                <div className="pdCompany large all-caps my-3">
+                <div className="pdCompany large uppercase my-3 heading-color">
                     {data.company}
                 </div>
-                <div className="pdName medium bold dark-grey">{data.name}</div>
+                <div className="pdName medium bold dark-grey heading2-color">
+                    {data.name}
+                </div>
             </div>
         </div>
     );
