@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react/cjs/react.development";
 import logo from "../../assets/images/logo.png";
 
-const Navbar = () => {
+const Navbar = ({ home }) => {
     const [active, setActive] = useState(true);
 
     //NAVBAR SCROLL EFFECT
@@ -25,6 +25,9 @@ const Navbar = () => {
 
     useEffect(() => {
         //set navigation class to fixed
+
+        if (home) return (navbarRef.current.className = "navbar sticky");
+
         navbarRef.current.className = `${
             OFFSET >= 150 ? "navbar sticky" : "navbar"
         }`;

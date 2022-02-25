@@ -7,16 +7,22 @@ import Footer from "./components/footer/Footer";
 import Landing from "./components/Landing/Landing";
 import Navbar from "./components/Navbar/Navbar";
 import Dealership from "./components/dealership/dealership";
-import Products from "./components/products/Product";
+import Products from "./components/products/Products";
 
-function App() {
+const App = () => {
+    const home = (
+        <>
+            <Navbar home={false} />
+            <Landing />
+        </>
+    );
     return (
         <Router>
             <div className="App">
-                <Navbar />
                 <Routes>
-                    <Route path="/" element={<Landing />} />
+                    <Route path="/" element={home} />
                 </Routes>
+                <Navbar home={true} />
                 <Routes>
                     <Route path="/about" element={<About />} />
                     <Route path="/contact-us" element={<Contact />} />
@@ -28,6 +34,6 @@ function App() {
             </div>
         </Router>
     );
-}
+};
 
 export default App;
