@@ -325,6 +325,10 @@ ion-icon {
     color: black;
 }
 
+.navList .active {
+    color: var(--primary-color);
+}
+
 /* ============LANDING=========== */
 
 .landing {

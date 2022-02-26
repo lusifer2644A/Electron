@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useEffect } from "react/cjs/react.development";
 import logo from "../../assets/images/logo.png";
 
@@ -81,64 +81,76 @@ const Navbar = ({ home }) => {
             </button>
             <ul ref={ulRef} className="">
                 <li className="navList">
-                    <Link
+                    <NavLink
+                        exact
+                        activeStyle={{ color: "red" }}
                         to="/"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
                         Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className="navList">
-                    <Link
+                    <NavLink
+                        exact
+                        activeStyle={{ color: "red" }}
                         to="/about"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
                         About Us
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className="navList">
-                    <Link
-                        to="/products"
+                    <NavLink
+                        exact
+                        activeStyle={{ color: "red" }}
+                        to={"/products"}
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
                         Products
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className="navList">
-                    <Link
+                    <NavLink
+                        exact
+                        activeStyle={{ color: "red" }}
                         to="/complaint"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
                         Complaints
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className="navList">
-                    <Link
+                    <NavLink
+                        exact
+                        activeStyle={{ color: "red" }}
                         to="/deal"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
                         Dealership
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className="navList">
-                    <Link
+                    <NavLink
+                        exact
+                        activeStyle={{ color: "red" }}
                         to="/deal"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
                         Distributors
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </div>
