@@ -264,7 +264,7 @@ hr.hrdashed {
 }
 
 .navbar.sticky {
-    background-color: #fff;
+    background: linear-gradient(110deg, lightgreen, lightblue);
     color: #000;
     position: fixed;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
