@@ -440,9 +440,7 @@ ion-icon {
 .card {
     background-color: white;
     border-radius: 1.5rem;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
     margin: 1rem 1rem;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -450,22 +448,27 @@ ion-icon {
     width: 20rem;
     min-height: 20rem;
     position: relative;
+    border: 0.1px solid rgb(187, 187, 187);
+    /* padding: 1rem; */
+    /* box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1); */
 }
 
 .card:hover {
     cursor: pointer;
-    transform: scale(1.01);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    /* transform: scale(1.01); */
 }
 
 .pdImage {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    right: 1rem;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
     background-color: #ffc477;
-    border-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
     width: auto;
-    height: 50%;
+    height: 55%;
 }
 
 .pdImage img {
