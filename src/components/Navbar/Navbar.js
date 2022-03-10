@@ -96,18 +96,6 @@ const Navbar = ({ home }) => {
                     <NavLink
                         exact
                         activeStyle={{ color: "red" }}
-                        to="/about"
-                        onClick={() => {
-                            navLinkClickHandler();
-                        }}
-                    >
-                        About Us
-                    </NavLink>
-                </li>
-                <li className="navList">
-                    <NavLink
-                        exact
-                        activeStyle={{ color: "red" }}
                         to={"/products"}
                         onClick={() => {
                             navLinkClickHandler();
@@ -120,19 +108,19 @@ const Navbar = ({ home }) => {
                     <NavLink
                         exact
                         activeStyle={{ color: "red" }}
-                        to="/complaint"
+                        to="/distributors"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
-                        Complaints
+                        Distributors
                     </NavLink>
                 </li>
                 <li className="navList">
                     <NavLink
                         exact
                         activeStyle={{ color: "red" }}
-                        to="/deal"
+                        to="/dealership"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
@@ -144,12 +132,24 @@ const Navbar = ({ home }) => {
                     <NavLink
                         exact
                         activeStyle={{ color: "red" }}
-                        to="/deal"
+                        to="/complaint"
                         onClick={() => {
                             navLinkClickHandler();
                         }}
                     >
-                        Distributors
+                        Complaint
+                    </NavLink>
+                </li>
+                <li className="navList">
+                    <NavLink
+                        exact
+                        activeStyle={{ color: "red" }}
+                        to="/about"
+                        onClick={() => {
+                            navLinkClickHandler();
+                        }}
+                    >
+                        About Us
                     </NavLink>
                 </li>
             </ul>

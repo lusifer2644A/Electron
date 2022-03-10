@@ -1,14 +1,14 @@
 import React from "react";
 import Heading from "../layouts/Heading";
 
-const Complaint = () => {
+const Distributor = () => {
     return (
         <div className="container">
             <div className="pageHeadingBox">
-                <Heading name="compliant" />
+                <Heading name="distributors" />
             </div>
         </div>
     );
 };
 
-export default Complaint;
+export default Distributor;

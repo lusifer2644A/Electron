@@ -155,7 +155,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 4rem 5rem;
 }
 
@@ -243,7 +242,7 @@ hr.hrdashed {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .pageHeadingBox .pageHeading {
@@ -273,10 +272,10 @@ hr.hrdashed {
 
 .navbar.sticky {
     background: linear-gradient(
-        90deg,
-        rgb(250 226 196) 0%,
-        rgb(243 218 196) 51%,
-        rgb(136 199 255) 100%
+        13deg,
+        #ffc99a 0%,
+        rgb(255 237 223) 51%,
+        rgb(122 212 242) 100%
     );
     color: #000;
     position: fixed;
@@ -449,6 +448,7 @@ ion-icon {
     min-height: 20rem;
     position: relative;
     border: 0.1px solid rgb(187, 187, 187);
+    user-select: none;
     /* padding: 1rem; */
     /* box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1); */
 }

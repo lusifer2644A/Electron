@@ -6,7 +6,8 @@ import Complaint from "./components/contact/Complaint";
 import Footer from "./components/footer/Footer";
 import Landing from "./components/Landing/Landing";
 import Navbar from "./components/Navbar/Navbar";
-import Dealership from "./components/dealership/dealership";
+import Dealership from "./components/dealership/Dealership";
+import Distributor from "./components/distributor/Distributor";
 import Products from "./components/products/Products";
 
 const App = () => {
@@ -28,7 +29,8 @@ const App = () => {
                     <Route path="/contact-us" element={<Contact />} />
                     <Route path="/products" element={<Products />} />
                     <Route path="/complaint" element={<Complaint />} />
-                    <Route path="/deal" element={<Dealership />} />
+                    <Route path="/dealership" element={<Dealership />} />
+                    <Route path="/distributors" element={<Distributor />} />
                 </Routes>
                 <Footer />
             </div>

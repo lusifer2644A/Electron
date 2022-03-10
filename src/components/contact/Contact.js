@@ -1,9 +1,12 @@
 import React from "react";
+import Heading from "../layouts/Heading";
 
 const Contact = () => {
     return (
         <div className="container">
-            <div className="primary-color mainTitle">CONTACT (BETA)</div>
+            <div className="pageHeadingBox">
+                <Heading name="contact us" />
+            </div>
         </div>
     );
 };

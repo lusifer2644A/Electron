@@ -27,7 +27,7 @@ const Landing = () => {
             </div>
             <div className="overview p-3">
                 <div className="x-large primary-color">OVERVIEW </div>
-                <div className="overviewText">
+                <div className="overviewText medium">
                     <ul>
                         <li>
                             Electron offers a wide range of agricultural

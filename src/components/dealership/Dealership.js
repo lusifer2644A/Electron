@@ -1,10 +1,11 @@
 import React from "react";
+import Heading from "../layouts/Heading";
 
 const Dealership = () => {
     return (
         <div className="container">
-            <div className="primary-color mainTitle">
-                Dealership and Distributors (BETA)
+            <div className="pageHeadingBox">
+                <Heading name="dealership" />
             </div>
         </div>
     );
