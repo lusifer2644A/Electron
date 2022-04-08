@@ -2,6 +2,8 @@
     {
         "company": "Electron",
         "name": "Single Phase Pump Control Panel",
+        "model": "AJS-23IUR",
+        "isLatest": true,
         "description": "Electron Single Phase Submersible Control panels are designed for switching on/off and protection of Single Phase Submersible Motors from overloading and short- circuiting with its most accurate thermal Bi-Metallic Overload relays. It also contains high voltage starting capacitors, which can start the motor even at low voltages.Housing is made of deep drawn CR sheet steel with best quality powder coating.",
         "price": "35000",
         "features": [
@@ -10,7 +12,14 @@
             "Deep drawn CR Sheet steel housing",
             "High Voltage Starting capacitor operates the motor even at low voltages"
         ],
-        "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0",
+        "images": [
+            {
+                "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0"
+            },
+            {
+                "url": "https://lh3.googleusercontent.com/mgDCzlbq6Wg0Qy6tO-5dTHDAaH2s9lZ1wrCclbVtdRcddgDoHXimjmgncXGhn2Ypd6iIlrLF9m3cGrLQhv1yzUvF0ylBmNPwcxJ02Fw0y6GSOgU8BR6kWxU7YEvefbXDs8unpL343YY_kx_nywdE7KLibHWDTqC9beUWt6uUKRkYIuuorcb91mhpTdfadw4rAblmXGWk8yvHfLFzckw5LYJ-37UhHIskPrR-VsQaE9lbE96bETOH-rEYWlve_5q-Z0pqkD1Wb3zx-pSfO2a3j26lTnVRrlYSUuBIqk1gvPyOMk4G-gMGJiqCsm3uqo-ykKzIwdkRyPBFafqcYckW7Uh0HI2LhrzZplwJ_llmOPPdom1FR3DlScIkHhKpHofKq4CEriPyyqL0Z8APaf9ApyWQb5n8srILGzkl8DSYYa93T9oaTWzd0vhExHbsSX9KZfxbv0mix16v1A10sJ8JaTvzi6cQFstPq3KOvNDrWcMLZbvz6qnuSBXIFvzhMjrtdu0zLDXETbThh5CQi6wKDha47uQ0yebzj2SeMvpvxE4NAgJU-Xaqcjj27qnrBNo4NYt3uWHkTNP7mpXQVosSqWd8EPtFm51fYYd6bNfjlYbVKlnqnZWHYZxlpL5hNSaJHQkPAW-zxRbjohb4qLQLG1QQu5ymLdiauh_Qi36-EFKHRZXFJ-IAjUSHR1KKRiJ9n2UmVZ3475-f_-G-M26RxOW0GIxJyPV8AvToa6alnpBqc-w3HeP3Umb7ideiqccaALKt44UTEn6jUGA44bdCw28l4GxJf2SBwsEOO8R5V5fZSdldyps2=w155-h140-no?authuser=0"
+            }
+        ],
         "discount": "15"
     },
     {
@@ -18,6 +27,8 @@
         "name": "Single Phase Pump Control Panels with Water Level Controller",
         "description": "Electron brings to you wide range of Single Phase Control panels with inbuilt Water Level Controller for Automatic operation of motor-pump sets depending upon the level of water in Overhead as well as underground tanks.",
         "price": "50000",
+        "model": "AJS-23IUR",
+        "isLatest": true,
         "features": [
             "High and Low Voltage Protection.",
             "Digital Overload Tripping with Overload Lock",
@@ -26,7 +37,14 @@
             "Digital Ampere and Voltage meter.",
             "Easy Installation"
         ],
-        "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0",
+        "images": [
+            {
+                "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0"
+            },
+            {
+                "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0"
+            }
+        ],
         "discount": "10"
     },
     {
@@ -34,13 +52,22 @@
         "name": "Single Phase Pump Control Panel",
         "description": "Electron Single Phase Submersible Control panels are designed for switching on/off and protection of Single Phase Submersible Motors from overloading and short- circuiting with its most accurate thermal Bi-Metallic Overload relays. It also contains high voltage starting capacitors, which can start the motor even at low voltages.Housing is made of deep drawn CR sheet steel with best quality powder coating.",
         "price": "35000",
+        "model": "AJS-23IUR",
+        "isLatest": false,
         "features": [
             "Digital Voltage and Ampere Meter",
             "Overloading Protection",
             "Deep drawn CR Sheet steel housing",
             "High Voltage Starting capacitor operates the motor even at low voltages"
         ],
-        "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0",
+        "images": [
+            {
+                "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0"
+            },
+            {
+                "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0"
+            }
+        ],
         "discount": "25"
     },
     {
@@ -48,6 +75,8 @@
         "name": "Single Phase Pump Control Panels with Water Level Controller",
         "description": "Electron brings to you wide range of Single Phase Control panels with inbuilt Water Level Controller for Automatic operation of motor-pump sets depending upon the level of water in Overhead as well as underground tanks.",
         "price": "50000",
+        "model": "AJS-23IUR",
+        "isLatest": false,
         "features": [
             "High and Low Voltage Protection.",
             "Digital Overload Tripping with Overload Lock",
@@ -56,7 +85,14 @@
             "Digital Ampere and Voltage meter.",
             "Easy Installation"
         ],
-        "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0",
+        "images": [
+            {
+                "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0"
+            },
+            {
+                "url": "https://lh3.googleusercontent.com/L1_8pl4z8pKJ7X0FWqbiGhelWlnQ2s1tSDl_Id0Gr2jQaYgHygtUnOdf7MJGG6_VcCAF0tz8N5GDblD3bP-Z7aVeX4ruVa8mQFCpDUxRZ6JveWlZ51H5ABiLiBdtd24UiNy7FJXzLA29mVri-WzLo6poWFhc8ICHsbzbMfq5qSWsUTAKpOKliE3e7l4ApQ28lIDXYweegm6sF07u7ho26d3bXo_nT1JQ0ZieIPL1lc2wJNg7qjvW2eif6_OqQOpzxTYWhjdOoTlTxocVQp9Dpf3dt_LABCfPDSGL891p9FLMJrQzqKwqRIUX-RElJOGoS62Je4DSPDB0kw7xA33SsIstO6aOa5pEkmKfhoVFi-7MbrsgSmdHtDyRqT67lTTZlfe5XkW7aecLJT7TNJgcsUZ33pbeW5gKSDzkBF-23rOZdpn_hD40na71Uis0YWw0gvSa4OqnRHASwHZuGYEsTmRpg3UBLZ6mrtClwyqSY4c5luGZMiPEgfy9ZC-t2wUmLwraDg2_FaXwPrzghuAQC154eoIWQBacTZ8Qchc3XCS7zjw8vkIFhsp5i4l6bkLcRfMfBbx1OnNXOJRcdtj9IkERmx9j4Lr2kTZ_Qg5JnfDV9vIVrLzElOrU_eGYGibBEC9Sx7_egjBnAOVMrT29xkmGF4w8T_d3kCblJXlFUfHEx1ViddF5gn_LEHJui7Y24apminqfbEibChh6Frch60Cj=w500-h348-no?authuser=0"
+            }
+        ],
         "discount": "65"
     }
 ]

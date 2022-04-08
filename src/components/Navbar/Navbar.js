@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useEffect } from "react/cjs/react.development";
 import logo from "../../assets/images/logo.png";
+import CartNavbar from "../Cart/CartNavbar";
 
 const Navbar = ({ home }) => {
     const [active, setActive] = useState(true);
@@ -54,105 +55,108 @@ const Navbar = ({ home }) => {
                     <img src={logo} alt="Electron" />
                 </Link>
             </div>
-            <button
-                className="hamburger"
-                onClick={() => {
-                    ulRef.current.className = `${active ? "active" : ""}`;
-                    hamburgerRef.current.className = `${
-                        active ? "hamburger active" : "hamburger"
-                    }`;
-                    setActive((prevState) => {
-                        return !prevState;
-                    });
-                }}
-                ref={hamburgerRef}
-            >
-                {active ? (
-                    <ion-icon
-                        name="menu-outline"
-                        className="hamIcon"
-                    ></ion-icon>
-                ) : (
-                    <ion-icon
-                        name="close-outline"
-                        className="hamIcon"
-                    ></ion-icon>
-                )}
-            </button>
-            <ul ref={ulRef} className="">
-                <li className="navList">
-                    <NavLink
-                        exact
-                        activeStyle={{ color: "red" }}
-                        to="/"
-                        onClick={() => {
-                            navLinkClickHandler();
-                        }}
-                    >
-                        Home
-                    </NavLink>
-                </li>
-                <li className="navList">
-                    <NavLink
-                        exact
-                        activeStyle={{ color: "red" }}
-                        to={"/products"}
-                        onClick={() => {
-                            navLinkClickHandler();
-                        }}
-                    >
-                        Products
-                    </NavLink>
-                </li>
-                <li className="navList">
-                    <NavLink
-                        exact
-                        activeStyle={{ color: "red" }}
-                        to="/distributors"
-                        onClick={() => {
-                            navLinkClickHandler();
-                        }}
-                    >
-                        Distributors
-                    </NavLink>
-                </li>
-                <li className="navList">
-                    <NavLink
-                        exact
-                        activeStyle={{ color: "red" }}
-                        to="/dealership"
-                        onClick={() => {
-                            navLinkClickHandler();
-                        }}
-                    >
-                        Dealership
-                    </NavLink>
-                </li>
-                <li className="navList">
-                    <NavLink
-                        exact
-                        activeStyle={{ color: "red" }}
-                        to="/complaint"
-                        onClick={() => {
-                            navLinkClickHandler();
-                        }}
-                    >
-                        Complaint
-                    </NavLink>
-                </li>
-                <li className="navList">
-                    <NavLink
-                        exact
-                        activeStyle={{ color: "red" }}
-                        to="/about"
-                        onClick={() => {
-                            navLinkClickHandler();
-                        }}
-                    >
-                        About Us
-                    </NavLink>
-                </li>
-            </ul>
+            <div className="navbarLinks flex-row">
+                {/* <CartNavbar /> */}
+                <button
+                    className="hamburger"
+                    onClick={() => {
+                        ulRef.current.className = `${active ? "active" : ""}`;
+                        hamburgerRef.current.className = `${
+                            active ? "hamburger active" : "hamburger"
+                        }`;
+                        setActive((prevState) => {
+                            return !prevState;
+                        });
+                    }}
+                    ref={hamburgerRef}
+                >
+                    {active ? (
+                        <ion-icon
+                            name="menu-outline"
+                            className="hamIcon"
+                        ></ion-icon>
+                    ) : (
+                        <ion-icon
+                            name="close-outline"
+                            className="hamIcon"
+                        ></ion-icon>
+                    )}
+                </button>
+                <ul ref={ulRef} className="">
+                    <li className="navList">
+                        <NavLink
+                            exact
+                            activeStyle={{ color: "red" }}
+                            to="/"
+                            onClick={() => {
+                                navLinkClickHandler();
+                            }}
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+                    <li className="navList">
+                        <NavLink
+                            exact
+                            activeStyle={{ color: "red" }}
+                            to={"/products"}
+                            onClick={() => {
+                                navLinkClickHandler();
+                            }}
+                        >
+                            Products
+                        </NavLink>
+                    </li>
+                    <li className="navList">
+                        <NavLink
+                            exact
+                            activeStyle={{ color: "red" }}
+                            to="/distributors"
+                            onClick={() => {
+                                navLinkClickHandler();
+                            }}
+                        >
+                            Distributors
+                        </NavLink>
+                    </li>
+                    <li className="navList">
+                        <NavLink
+                            exact
+                            activeStyle={{ color: "red" }}
+                            to="/dealership"
+                            onClick={() => {
+                                navLinkClickHandler();
+                            }}
+                        >
+                            Dealership
+                        </NavLink>
+                    </li>
+                    <li className="navList">
+                        <NavLink
+                            exact
+                            activeStyle={{ color: "red" }}
+                            to="/complaint"
+                            onClick={() => {
+                                navLinkClickHandler();
+                            }}
+                        >
+                            Complaint
+                        </NavLink>
+                    </li>
+                    <li className="navList">
+                        <NavLink
+                            exact
+                            activeStyle={{ color: "red" }}
+                            to="/about"
+                            onClick={() => {
+                                navLinkClickHandler();
+                            }}
+                        >
+                            About Us
+                        </NavLink>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 };

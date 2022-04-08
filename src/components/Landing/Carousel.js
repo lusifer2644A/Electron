@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-const Carousel = ({ sliderImages, autoPlayInterval }) => {
+const Carousel = ({ sliderImages, autoPlayInterval, showButtons = true }) => {
     const [current, setCurrent] = useState(0);
     const length = sliderImages.length;
 
@@ -11,10 +11,13 @@ const Carousel = ({ sliderImages, autoPlayInterval }) => {
     });
 
     useEffect(() => {
-        const interval = setInterval(() => {
+        interval();
+    }, []);
+
+    const interval = () =>
+        setInterval(() => {
             autoPlayRef.current();
         }, autoPlayInterval * 1000);
-    }, []);
 
     if (length === 0 || length === null) return null;
 
@@ -28,12 +31,23 @@ const Carousel = ({ sliderImages, autoPlayInterval }) => {
 
     return (
         <div className="carousel">
-            <button onClick={prevSlide} className="carousel-button prev">
-                {"<"}
-            </button>
-            <button onClick={nextSlide} className="carousel-button next">
-                {">"}
-            </button>
+            {showButtons && (
+                <>
+                    <button
+                        onClick={prevSlide}
+                        className="carousel-button prev"
+                    >
+                        {"<"}
+                    </button>
+                    <button
+                        onClick={nextSlide}
+                        className="carousel-button next"
+                    >
+                        {">"}
+                    </button>
+                </>
+            )}
+
             <ul>
                 {sliderImages.map((slide, index) => {
                     return (
