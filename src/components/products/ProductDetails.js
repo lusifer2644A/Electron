@@ -2,6 +2,8 @@ import React from "react";
 import Carousel from "../Landing/Carousel";
 import Modal from "../UI/Modal";
 
+import warrenty_image from "../../assets/images/6mw.png";
+
 const ProductDetails = ({ data, onClose }) => {
     const actualPrice = parseInt(data.price);
     const dis = parseInt(data.discount);
@@ -40,6 +42,10 @@ const ProductDetails = ({ data, onClose }) => {
                         <div className="pdPrice large grey-color textStrike">
                             {actualPrice}
                         </div>
+                    </div>
+                    <div className="large grey-color bold my-2">Warrenty:</div>
+                    <div className="pdDetails-warrenty">
+                        <img src={warrenty_image} alt="" />
                     </div>
                     {/* =====FORM AREA======= */}
                     <div className="large grey-color bold my-2">Features:</div>

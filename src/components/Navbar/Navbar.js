@@ -56,7 +56,7 @@ const Navbar = ({ home }) => {
                 </Link>
             </div>
             <div className="navbarLinks flex-row">
-                {/* <CartNavbar /> */}
+                <CartNavbar />
                 <button
                     className="hamburger"
                     onClick={() => {
