@@ -23,6 +23,13 @@ const Landing = () => {
     return (
         <div className="landing">
             <div className="carousel_area">
+                <div className="landingCarouselText">
+                    <div className="xxx-large font-bebas head">ELECTRON</div>
+                    <div className="xxx-large font-oleo">
+                        Only water pumps and motors solution
+                    </div>
+                </div>
+                <div className="blackdrop"></div>
                 <Carousel sliderImages={sliderImages} autoPlayInterval={4} />
             </div>
             <div className="overview p-3">
